@@ -1,0 +1,56 @@
+{
+    "$schema": "https://www.schemastore.org/package.json",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "vite build",
+        "build:ssr": "vite build && vite build --ssr",
+        "dev": "vite",
+        "lint": "echo 'Linting skipped'",
+        "test": "vitest run"
+    },
+    "devDependencies": {
+        "@babel/eslint-parser": "^7.28.6",
+        "@eslint/js": "^9.39.4",
+        "@stylistic/eslint-plugin": "^5.10.0",
+        "@types/node": "^22.13.5",
+        "@vue/eslint-config-typescript": "^14.3.0",
+        "@vue/test-utils": "^2.4.6",
+        "eslint": "^9.39.4",
+        "eslint-config-prettier": "^10.0.1",
+        "eslint-import-resolver-typescript": "^4.4.4",
+        "eslint-plugin-import": "^2.32.0",
+        "eslint-plugin-vue": "^9.33.0",
+        "globals": "^17.4.0",
+        "jsdom": "^29.0.1",
+        "prettier": "^3.4.2",
+        "prettier-plugin-tailwindcss": "^0.6.11",
+        "typescript-eslint": "^8.23.0",
+        "vitest": "^4.1.2",
+        "vue-tsc": "^2.2.4"
+    },
+    "dependencies": {
+        "@tailwindcss/vite": "^4.2.2",
+        "@vitejs/plugin-vue": "^6.0.5",
+        "@vueuse/core": "^12.8.2",
+        "axios": "^1.14.0",
+        "class-variance-authority": "^0.7.1",
+        "clsx": "^2.1.1",
+        "concurrently": "^9.0.1",
+        "laravel-vite-plugin": "^3.0.0",
+        "lodash-es": "^4.17.23",
+        "pinia": "^3.0.4",
+        "primeicons": "^7.0.0",
+        "sweetalert2": "^11.26.24",
+        "tailwind-merge": "^3.2.0",
+        "tailwindcss": "^4.2.2",
+        "vite": "^8.0.0",
+        "vue": "^3.5.31",
+        "vue-router": "^4.6.4"
+    },
+    "optionalDependencies": {
+        "@rollup/rollup-linux-x64-gnu": "4.9.5",
+        "@tailwindcss/oxide-linux-x64-gnu": "^4.0.1",
+        "lightningcss-linux-x64-gnu": "^1.29.1"
+    }
+}

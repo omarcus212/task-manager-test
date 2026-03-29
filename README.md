@@ -199,7 +199,7 @@ DB_PORT=3306
 DB_DATABASE=task_manager
 DB_USERNAME=root
 DB_PASSWORD=sua_senha_aqui  # ← Configurar aqui
-MYSQL_ROOT_PASSWORD=sua_senha_root_aqui  # ← Configurar aqui
+
 
 # App
 APP_URL=http://localhost:8000

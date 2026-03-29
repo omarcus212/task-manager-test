@@ -44,6 +44,10 @@ Todos os requisitos foram implementados e testados:
 - [x] Estrutura de pastas organizada e escalável
 - [x] Código em JavaScript com JSDoc para tipagem
 
+# Tempo (3 a 4 dias, 24h)
+- back-end (10h)
+- front-end (14h)
+
 ---
 
 ## 🚀 Como Rodar o Projeto

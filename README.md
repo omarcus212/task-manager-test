@@ -91,6 +91,10 @@ composer install
 # Iniciar containers (Laravel + MySQL + Redis)
 docker-compose up -d
 
+ou
+
+docker compose --env-file .env up -d
+
 # Aguardar os serviços iniciarem (~30 segundos
 ```
 

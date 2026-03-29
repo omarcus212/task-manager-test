@@ -171,7 +171,7 @@
                             v-model="form.description"
                             rows="3"
                             class="w-full rounded-lg border border-gray-300 px-3 py-2 outline-none focus:ring-2 focus:ring-blue-500"
-                            placeholder="Project description..."
+                            placeholder="Project description... (max 600 characters)"
                         ></textarea>
                     </div>
                     <BaseSelect
@@ -349,6 +349,19 @@ const handleSaveProject = async () => {
             toast: true,
             position: 'top-end',
             timer: 2000,
+        });
+        return;
+    }
+
+    if (form.description.length > 600) {
+        Swal.fire({
+            icon: 'warning',
+            title: 'Attention',
+            text: 'Description cannot have more than 600 characters!',
+            toast: true,
+            position: 'top-end',
+            showConfirmButton: false,
+            timer: 3000,
         });
         return;
     }

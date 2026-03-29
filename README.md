@@ -92,10 +92,10 @@ composer install
 docker-compose up -d
 
 ou
-
+# Iniciar containers utilizando diretamente a .env modificada
 docker compose --env-file .env up -d
 
-# Aguardar os serviços iniciarem (~30 segundos
+# Aguardar os serviços iniciarem (~30 segundos a 1min)
 ```
 
 #### 5️⃣ Configurar Banco de Dados
